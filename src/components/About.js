@@ -18,6 +18,7 @@ export default function About() {
                         </p>
                         <a 
                         target='_blank'
+                        rel='noopener noreferrer'
                         className='btn-white linkedin' 
                         href='https://www.linkedin.com/in/fedor-khandobin-320865158/'
                         >Linkedin
