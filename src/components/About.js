@@ -16,7 +16,12 @@ export default function About() {
                          technologies for more than half a year now. I have a great desire to be part of a development team 
                          and create something valuable for this world. Please visit my Linkedin page to know more about me!
                         </p>
-                        <a className='btn-white linkedin' href='https://www.linkedin.com/in/fedor-khandobin-320865158/'>Linkedin</a>
+                        <a 
+                        target='_blank'
+                        className='btn-white linkedin' 
+                        href='https://www.linkedin.com/in/fedor-khandobin-320865158/'
+                        >Linkedin
+                        </a>
                     </div>
                 </div>
         </div>
