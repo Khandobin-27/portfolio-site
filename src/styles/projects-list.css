@@ -1,0 +1,28 @@
+    .project-page-wrapper {
+        padding: 2rem 2.5rem;
+        background: linear-gradient(-178deg, white 96%,rgb(247, 182, 62) 97%)
+    }
+
+    .centered {
+        max-width: 1200px; 
+        margin: 0 auto;
+    }
+
+
+    .project-page-container {
+        padding: 1rem 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+@media only screen and (max-width: 700px) {
+    .project-page-container {
+        padding: 0;
+        display: block;
+    }
+    .project-page-wrapper {
+        padding: 2rem;
+        background: white;
+    }
+  }

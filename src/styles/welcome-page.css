@@ -1,0 +1,129 @@
+.welcome-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction:  column;
+    padding-left: 6em;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-250%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+.welcome-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3.7em;
+    animation: 2s ease-out 0s 1 fadeIn;
+}
+
+.welcome-description {
+    margin-top: 0;
+    font-size: 2.7em;
+    animation: 2s ease-out 0s 1 fadeIn;
+}
+
+.my-name {
+    color: rgb(247, 171, 30);
+}
+
+.orange {
+    color: rgb(247, 171, 30);
+    border: 3px solid rgb(247, 171, 30);
+    background-color: #fff;
+}
+
+.btn {
+    color: rgb(247, 171, 30);
+    text-decoration: none;
+    border: 3px solid rgb(247, 171, 30);
+    padding: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: .8rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.animation {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.btn:hover {
+    background-color: rgb(247, 171, 30);
+    color: white;
+    transition: 0.5s;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    font-size: 2em;
+    position: absolute;
+    opacity: 0;
+    top: -12px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  }
+
+@media only screen and (max-width: 700px) {
+    .welcome-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction:  column;
+        padding-left: 0;
+    }
+    .welcome-header {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 2.3em;
+        text-align: center;
+        padding:  0 1.7rem;
+    }
+    
+    .welcome-description {
+        margin-top: 0;
+        font-size: 1.8em;
+        text-align: center;
+        padding: 0 1.7rem;
+    }
+    .btn {
+        padding: 0.3rem;
+    }
+  }

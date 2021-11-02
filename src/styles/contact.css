@@ -1,0 +1,32 @@
+.contact-wrapper {
+    padding: 2.5rem 3rem;
+    background-color: rgb(247, 182, 62);
+    height: auto;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.ct {
+    text-align: center;
+}
+
+.wb-p {
+    background-color: white;
+    padding: .15rem;
+    border-radius: 5px;
+    margin-top: .5rem;
+}

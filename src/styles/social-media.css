@@ -1,0 +1,43 @@
+.social-media-wrapper {
+    padding: 2.5rem 3rem;
+    background-color: rgb(43, 41, 41);
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.icon-example {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.mr {
+    margin-right: 2rem; 
+}
+/* .icon-example:not(:last-child) { 
+    margin-right: 2rem;
+} */
+
+.white-text {
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .mr { 
+        margin-right: 1.4rem;
+    }
+    .social-media-container {
+        height: 15vh;
+    }
+    .icon-example {
+        width: 34px;
+        height: 34px;
+    }
+} 

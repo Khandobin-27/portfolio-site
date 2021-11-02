@@ -1,0 +1,150 @@
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+}
+
+.about-wrapper {
+    padding: 2.5rem 3rem;
+    background: linear-gradient(170deg, rgb(247, 182, 62) 68%, white 70%); 
+}
+
+.section-title {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+
+.white {
+    color: #fff;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+    height: 69vh;
+}
+
+
+.content-left {
+    margin-right: 5rem;
+}
+
+
+.content-right {
+    max-width: 450px;
+}
+
+.mb {
+    margin-bottom: 2.5rem;
+}
+
+.btn-white {
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(247, 182, 62);
+    cursor: pointer;
+    margin-top: .8rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.btn-white:hover {
+    background-color: #fff;
+    color: rgb(247, 171, 30);
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 501px) {
+    .paragraph {
+        font-size: 1.2em;
+        margin-top:0;
+    }
+}
+
+.linkedin {
+    width: 100px;
+}
+
+@media only screen and (max-width: 500px){
+    .paragraph {
+        font-size: 1em;
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (min-width: 500px) {
+    .about-wrapper {
+        padding: 2.5rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+
+    .about-centered {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-bottom: 2rem; */
+    }
+    .content-left {
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content-right {
+        max-width: 100%;
+        margin-left: 0;
+        padding: 1.5rem 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mr-b {
+        margin-bottom: 1rem;
+    }
+
+    .section-title {
+        font-size: 2.2em;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+    .profile-img {
+        width: 250px;
+        height: 250px;
+    }
+    .btn-white {
+        padding: 0.3rem;
+        text-align: center;
+        margin-top: 0;
+    }
+    
+  }
+
+  @media only screen and (max-width: 950px) {
+    .about-wrapper {
+        background: rgb(247, 182, 62);
+    }
+    .about-centered {
+        height: auto;
+    }
+
+    .sz {
+        font-size: 1.1rem;
+    }
+  }
