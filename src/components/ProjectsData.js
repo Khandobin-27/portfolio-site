@@ -13,7 +13,7 @@ export const projectsData = [
     {
         id: 2,
         title: 'Recipe App',
-        description: "A fully React-based app for writing your favorite recipes. In addition to adding and removing recipes, the app also has the option of live modifying an individual recipe and then saving it to the browser's local memory.",
+        description: "A fully React-based app for writing your favorite recipes (not mobile-friendly). In addition to adding and removing recipes, the app also has the option of live modifying an individual recipe and then saving it to the browser's local memory.",
         image: 'https://sun9-23.userapi.com/impg/9wtJpWikMyISuSmwxeIsYtBeqclIHgj4tazpgA/VEPlZ_0l1M8.jpg?size=1229x691&quality=96&sign=b859f01920372bdfcc6fc205510d72a1&type=album',
         seeLive: 'https://inspiring-lewin-a93809.netlify.app/',
         sourceCode: 'https://github.com/Khandobin-27/recipe-app'
